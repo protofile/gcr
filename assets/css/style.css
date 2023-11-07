@@ -19,7 +19,7 @@ Version: 1.0
 /*-------------------- RESETE STYLES --------------------*/
 @import url("https://fonts.googleapis.com/css?family=Kanit:400,500&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,700&display=swap");
-#front{padding-top: 108px;}
+#front{padding-top: 80px;}
 #front img{width: 100%;}
 .pricing-table-cover{justify-content: center;}
 .img-fluid{width: 100%;}
@@ -8753,3 +8753,37 @@ body.modal {
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/localhost\/giner-html\/template\/assets\/scss\/_site\.scss}line{font-family:\000036030}}
   .dance-slide .container {
     min-height: 480px; } }
+
+
+/*CUSTOM*/
+.logo{
+  background: #fff;
+  padding: 5px 15px;
+  margin-top: -12px;
+  margin-bottom: -17px;
+  height: 80px;
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.choose-us-item h4{
+  font-size: 20px;
+}
+.choose-us-item p{
+  font-size: 15px;
+  text-align: justify;
+}
+.s-pricing-table-2,
+.s-maps{
+  padding-bottom: 160px;
+}
+.text-center{
+  text-align: center;
+}
+
+.s-maps iframe{
+  width: 100%;
+  height: 400px;
+}
