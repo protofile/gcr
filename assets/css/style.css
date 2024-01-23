@@ -1727,7 +1727,7 @@ textarea::placeholder {
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/localhost\/giner-html\/template\/assets\/scss\/_footer\.scss}line{font-family:\000032}}
 footer {
   padding: 20px 0;
-  background-color: #f7941d;
+  background-color: #0d5aa5;
   color: #fff;
   position: relative;
   z-index: 1; }
