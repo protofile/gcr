@@ -6148,7 +6148,9 @@ body.modal {
             transform: translateY(30px);
     text-align: center;
     font-weight: 300;
-    color: #fff; }
+    color: #fff; 
+    font-size: 13px;
+  }
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/localhost\/giner-html\/template\/assets\/scss\/_site\.scss}line{font-family:\000033746}}
   .gallery-item .title {
     text-transform: capitalize;
@@ -6165,7 +6167,7 @@ body.modal {
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/localhost\/giner-html\/template\/assets\/scss\/_site\.scss}line{font-family:\000033757}}
 .grid-sizer,
 .gallery-item {
-  width: 25%; }
+  width: 33%; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/localhost\/giner-html\/template\/assets\/scss\/_site\.scss}line{font-family:\000033761}}
 .title-cover {
