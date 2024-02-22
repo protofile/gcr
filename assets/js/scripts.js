@@ -175,6 +175,11 @@
 			}, 600);
 		}
 	});
+	$(".nav-list li a").click(function(m){
+		m.preventDefault();
+		$(".menu").removeClass("active");
+		$(".nav-btn").removeClass("active");
+	});
 
 	/* ------------------ DANCE-SLIDER ----------------- */
 	if($('.dance-slider')[0]){
@@ -655,5 +660,7 @@
 			map: map
 		});
 	}
+
+	
 
 }(jQuery));
