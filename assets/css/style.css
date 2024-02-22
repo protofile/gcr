@@ -8842,7 +8842,34 @@ body.modal {
 .gallery-item .title{
   color: #fff;
 }
-
+@media only screen and (max-width:767px){
+  .logo{
+    height: 71px;
+    z-index: 3;
+  }
+  .nav-btn{
+    top: 7px;
+  }
+  .nav-menu.menu{
+    width: 70% !important;
+    left: 100%;
+    padding-top: 100px;
+  }
+  .nav-menu.active{
+    left: 30%;
+  }
+  .nav-list > li{
+    margin-bottom: 10px;
+  }
+  .nav-list > li > a{
+    padding: 0;
+    font-size: 14px;
+  }
+  .marathon-header-fixed .nav-menu{
+    background-color: rgba(13,90,135,0.6);
+    backdrop-filter: blur(8px);
+  }
+}
 
 
 
